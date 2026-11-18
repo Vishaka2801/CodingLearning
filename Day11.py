@@ -37,11 +37,14 @@ def print_len(cities):
 
 colors = ["red", "blue", "grey", "purple"]
 
-
+def print_list(colors):
+    for item in colors:
+        print(item, end=" ")
 
 
 #outputs 
 #print_len(cities)
 #calc_avg
 #calc_sum
+print_list(colors)
 
