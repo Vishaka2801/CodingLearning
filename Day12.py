@@ -49,6 +49,7 @@ print(fact(4))
 def cal_sum(n) :
     if (n ==0):
         return 0
+    print(f"cal_sum({n})")
     return cal_sum (n-1) + n 
 
 sum =  cal_sum (5)
